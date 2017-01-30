@@ -1,4 +1,4 @@
-# Trilateration usin Beacons
+# Trilateration using Beacons
 
 This is an application you used in experiments.
 
