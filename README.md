@@ -1,6 +1,6 @@
 # Trilateration using Beacons
 
-This is an application you used in experiments.
+This is an application used in experiments.
 
 ## Description
 
