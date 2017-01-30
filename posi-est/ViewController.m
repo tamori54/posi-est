@@ -177,7 +177,7 @@ ViewController () <CLLocationManagerDelegate>{
 
 //ビーコン監視を停止
 -(void)chkBeaconStop{
-    NSString *uuid = @"00000000-175C-1001-B000-001C4D1DA67D";
+    NSString *uuid = @"UUID"; //input UUID
     CLBeaconRegion *region = [[CLBeaconRegion alloc]
                               initWithProximityUUID:[[NSUUID alloc]initWithUUIDString:uuid] identifier:@"MyBeacon"];
     [_locationManager stopRangingBeaconsInRegion:region];
@@ -188,7 +188,7 @@ ViewController () <CLLocationManagerDelegate>{
 //
 -(void) chkBeaconStart{
     //対象のBeacon領域を作成
-    NSString *uuid = @"00000000-175C-1001-B000-001C4D1DA67D";
+    NSString *uuid = @"UUID"; //input UUID
     CLBeaconRegion *region = [[CLBeaconRegion alloc]
                               initWithProximityUUID:[[NSUUID alloc]initWithUUIDString:uuid] identifier:@"MyBeacon"];
     [_locationManager startRangingBeaconsInRegion:region];
